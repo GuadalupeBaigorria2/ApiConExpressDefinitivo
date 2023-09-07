@@ -1,0 +1,36 @@
+
+
+Clase 1
+
+npm init: para iniciar un paquete node packet manager
+
+Recordar en package.json-> agregar "type": "module"
+
+node install express: para instalar express en las depencias del proyecto
+
+npm -D i nodemon instala nodemon como dependencia de desarrollo, que no estará cuando hagamos el build final (i es lo mismo que install)
+
+npx nodemon ./src/index.js inicia el nodemon que te deja hacer cambios y el servidor se actualiza
+
+
+
+
+Clase 2
+API CON EXPRESS
+PS C:\Users\Guada\Documents\Estudio\ApiConExpress> npm i -D nodemon
+
+added 33 packages, and audited 92 packages in 8s
+
+11 packages are looking for funding
+  run `npm fund` for details       
+
+found 0 vulnerabilities
+PS C:\Users\Guada\Documents\Estudio\ApiConExpress> npx nodemon ./source/index.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node ./source/index.js`
+listening on port= 3010
+
+

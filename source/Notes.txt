@@ -1,3 +1,7 @@
+PUT Update sobreescribe todo al menos que los manejemos bien
+PATCH Actualiza solo el campo
+POST Creación
+
 
 
 Clase 1

@@ -38,3 +38,14 @@ PS C:\Users\Guada\Documents\Estudio\ApiConExpress> npx nodemon ./source/index.js
 listening on port= 3010
 
 
+PS C:\Users\Guada\Documents\Estudio\ApiConExpress> npm install mysql2
+
+added 11 packages, and audited 103 packages in 7s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities     
+PS C:\Users\Guada\Documents\Estudio\ApiConExpress> 
+
+

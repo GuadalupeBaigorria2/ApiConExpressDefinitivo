@@ -1,4 +1,7 @@
 import express from "express";
+import peopleRoutes from "./Routes/People.routes.js";
+import { CreateDatabase, createTable } from "./Database/Database.js";
+
 const app= express();
 const port=3010;
 const arrayString=["Guadlaupe","Florencia"];
@@ -8,6 +11,11 @@ const users= [{username:"Guadalupe", lastname:"Baigorria", edad:26},{username:"D
 //cuando pasa un json, lo va a formatear
 //convierte información a json
 app.use(express.json());
+app.use("/people", peopleRoutes);
+CreateDatabase();
+createTable();
+
+
 app.get("/", (request, response)=>{
     response.send("Hello");
 });

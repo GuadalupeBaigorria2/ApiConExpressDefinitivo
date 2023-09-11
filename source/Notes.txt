@@ -48,4 +48,11 @@ added 11 packages, and audited 103 packages in 7s
 found 0 vulnerabilities     
 PS C:\Users\Guada\Documents\Estudio\ApiConExpress> 
 
+11/09/2023
+Proximas clases:
+- Arreglar get.
+- Consumir apis de terceros.
+- Microservicios (utilizan api para comunicarse).
+-ORM SEQUELISE
+
 
